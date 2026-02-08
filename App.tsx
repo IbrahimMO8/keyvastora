@@ -70,7 +70,15 @@ const App: React.FC = () => {
               <div className="w-3 h-3 bg-[#F15A24] rounded-sm"></div>
               <div>
                 <h1 className="text-2xl font-black text-[#F15A24] tracking-tighter leading-none uppercase">Key Vastora</h1>
-                <span className="text-[10px] font-bold text-[#175066] uppercase tracking-widest">By IM Vastora</span>
+                <span className="text-[10px] font-bold text-[#175066] uppercase tracking-widest">By <a 
+  href="https://www.imvastora.com/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="text-[10px] font-bold text-[#175066] uppercase tracking-widest"
+>
+  IM Vastora
+</a>
+</span>
               </div>
             </div>
           </div>
@@ -287,7 +295,15 @@ const App: React.FC = () => {
                   <span className="text-xl font-black text-[#F15A24] uppercase">Key Vastora</span>
                 </div>
              </div>
-             <p className="text-slate-400 text-sm font-bold uppercase tracking-[0.2em]">Developed by IM Vastora</p>
+             <p className="text-slate-400 text-sm font-bold uppercase tracking-[0.2em]">Developed by <a 
+  href="https://www.imvastora.com/" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="text-[10px] font-bold text-[#175066] uppercase tracking-widest"
+>
+  IM Vastora
+</a>
+</p>
              <p className="text-slate-300 text-[11px] mt-6">Discover. Optimize. Grow. | © 2024 Key Vastora Intelligence Core.</p>
           </div>
         </div>
